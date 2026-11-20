@@ -1,0 +1,20 @@
+# Core CV dependencies
+opencv-python>=4.9.0
+numpy>=1.26.0
+
+# YOLO model framework
+ultralytics>=8.2.0
+
+# Tracking & annotation utilities (includes ByteTrack integration)
+supervision>=0.21.0
+
+# FastAPI, DB & Authentication
+fastapi>=0.110.0
+uvicorn>=0.29.0
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+alembic>=1.13.0
+python-multipart>=0.0.9
+pyjwt>=2.8.0
+bcrypt>=4.1.0
+requests>=2.31.0

@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Generated data / outputs
+data/
+outputs/
+
+# Model weights
+*.pt
+*.onnx
+
+# Frontend dependencies / builds
+node_modules/
+.next/
+dist/
+build/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
